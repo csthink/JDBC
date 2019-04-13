@@ -73,7 +73,7 @@
     ps.setTimestamp(2, java.sql.Timestamp.valueOf(java.time.LocalDateTime.now()));
     
     LocalDate localDate = LocalDate.now(ZoneId.of("Asia/Shanghai"));
-myPreparedStatement.setObject(1, localDate);
+    ps.setObject(1, localDate);
     ```
 
 ## 驱动程序
